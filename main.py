@@ -8,5 +8,10 @@ def main():
 
     # Menu
     print("|_____________________________> Intake Home <________________________________|")
-    print("| 1.) Start new intake. 2.) View Old intakes                                 |")
-    print("| 2.) View old intake")
+    print("| 1.) Start Device Inspection                2.) View Old Device Inspections |")
+
+    choice = input("| Make selction using numbers, then press enter: ")
+    print("|____________________________________________________________________________|")    
+ 
+
+# Choice Selection
