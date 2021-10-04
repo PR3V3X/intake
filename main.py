@@ -8,6 +8,7 @@ def main():
 
 	# Menu
 	print("|_____________________________> Intake Home <________________________________|")
+	print("|                                                                            |")
 	print("| 1.) Start Device Inspection                2.) View Old Device Inspections |")
 	print("|____________________________________________________________________________|")
 	print("| ")
@@ -25,5 +26,16 @@ def main():
 		print("Please choose a valid option...")
 		print("_" * 78)
 		main()
+
+
+
+def intake_start():
+	print("Intake start")
+
+def intake_old():
+	print("Old")
+
+
+
 
 main()
